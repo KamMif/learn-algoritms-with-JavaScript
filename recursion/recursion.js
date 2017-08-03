@@ -20,6 +20,7 @@
 // Управление снова возвращается функции greet()
 // Этот стек в котором сохранялись переменные разных функций - называется стеком вызовов
 
+
 function greet(name) {
     console.log('hello, ' + name = '!')
     greet2(name)
@@ -44,5 +45,7 @@ function fact(x) {
         return x * fact(x - 1)
     }
 }
+
+
 
 
